@@ -1,28 +1,29 @@
 {
-  "name": "node-sdl2-pong",
-  "version": "0.0.1",
-  "description": "Pong implemented using node-sdl2",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo 'Use `npm start` instead.'",
-    "start": "babel-node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RobLoach/node-sdl2-pong.git"
-  },
-  "keywords": [
-    "node-sdl2"
-  ],
-  "author": "Rob Loach (http://robloach.net)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RobLoach/node-sdl2-pong/issues"
-  },
-  "homepage": "https://github.com/RobLoach/node-sdl2-pong#readme",
-  "dependencies": {
-    "babel-cli": "^6.9.0",
-    "babel-preset-es2015": "^6.9.0",
-    "node-sdl2": "https://github.com/RobLoach/node-sdl2/tarball/update"
-  }
+	"name": "node-sdl2-pong",
+	"version": "0.0.1",
+	"description": "Pong implemented using node-sdl2",
+	"main": "index.js",
+	"scripts": {
+		"test": "xo --no-semicolon --esnext",
+		"start": "babel-node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RobLoach/node-sdl2-pong.git"
+	},
+	"keywords": [
+		"node-sdl2"
+	],
+	"author": "Rob Loach (http://robloach.net)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/RobLoach/node-sdl2-pong/issues"
+	},
+	"homepage": "https://github.com/RobLoach/node-sdl2-pong#readme",
+	"dependencies": {
+		"babel-cli": "^6.9.0",
+		"babel-preset-es2015": "^6.9.0",
+		"node-sdl2": "https://github.com/RobLoach/node-sdl2/tarball/update",
+		"vector2d-lib": "0.0.12"
+	}
 }

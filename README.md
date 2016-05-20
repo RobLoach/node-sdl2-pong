@@ -8,9 +8,9 @@ Implementation of [Pong](https://en.wikipedia.org/wiki/Pong), using [Node.js](ht
 
 ## Dependencies
 
-- Node.js 4/5
+- Node.js 4 or 5
 
-## Run
+## Play
 
 ```
 npm install
